@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover, user-scalable=no">
-  <title>For My Love ❤️</title>
+  <title>For My Didi ❤️</title>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -820,7 +820,7 @@
       <div class="gift-lid">
         <div class="bow"></div>
       </div>
-      <div class="surprise-text">Happy Birthday Cutie 🎂💖</div>
+      <div class="surprise-text">Happiest Birthday Didi 🎂💖</div>
     </div>
     <button class="btn" id="btn-to-sec4" onclick="nextSection(4)"
       style="opacity: 0; pointer-events: none; transition: 1s ease;">Read My Letter 💌</button>
@@ -829,12 +829,12 @@
   <!-- SECTION 4: LOVE LETTER -->
   <section class="section bg-gradient-4" id="sec-4">
     <div class="paper-card">
-      <h2 style="font-family: 'Dancing Script', cursive; color: var(--primary); font-size: 2.5rem;">My Love,</h2>
+      <h2 style="font-family: 'Dancing Script', cursive; color: var(--primary); font-size: 2.5rem;">Dear Didi,</h2>
       <p class="handwriting" style="text-align: left; color: #444;">
-        On your special day, I just want to say how much you mean to me.<br><br>
-        You make every moment magical and every day beautiful. Your smile brightens up my darkest days.<br><br>
-        I am so incredibly lucky to have you in my life.<br><br>
-        Happy Birthday my cutie. 💖
+        May your days be bright and your heart be light.<br><br>
+        Wishing you endless smiles, good health and success in everything you do.<br><br>
+        You deserve all the love and joy that life has to offer.<br><br>
+        Happy Birthday, My Cutest Sister!🌷🤍✨
       </p>
       <div style="text-align: right; margin-top: 20px;">
         <button class="btn" onclick="nextSection(5)">View Memories 📸</button>
@@ -846,9 +846,9 @@
   <section class="section bg-gradient-5" id="sec-5">
     <div class="gallery-layout">
       <div class="gallery-text">
-        <h2 style="font-size: 2.8rem; color: var(--primary);">Our Memories</h2>
-        <p class="gallery-desc">These moments with you are my greatest treasure.
-          Every picture tells a story of our beautiful journey.</p>
+        <h2 style="font-size: 2.8rem; color: var(--primary);">Beautiful Moments</h2>
+        <p class="gallery-desc">Every pictures is a reflection of your beauty.
+          You make every moment special.</p>
         <button class="btn" onclick="nextSection(6)" style="margin-top: 30px;">One Last Thing...</button>
       </div>
       <div class="gallery-grid">
@@ -856,25 +856,25 @@
         <div class="polaroid"
           onclick="openModal('https://images.unsplash.com/photo-1707921355025-0bf58889a252?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D')">
           <img
-            src="S1"
+            src="M1"
             alt="Memory 1">
         </div>
         <div class="polaroid"
           onclick="openModal('https://images.unsplash.com/photo-1707921354972-c91395414611?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
           <img
-            src="S2"
+            src="M2"
             alt="Memory 2">
         </div>
         <div class="polaroid"
           onclick="openModal('https://images.unsplash.com/photo-1707921354972-c91395414611?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
           <img
-            src="S3"
+            src="M3"
             alt="Memory 3">
         </div>
         <div class="polaroid"
           onclick="openModal('https://images.unsplash.com/photo-1707921355025-0bf58889a252?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')">
           <img
-            src="S4"
+            src="M4"
             alt="Memory 4">
         </div>
       </div>
@@ -947,15 +947,15 @@
 
     /* === SECTION 2: CARDS LOGIC === */
     const reasons = [
-      "You make my life beautiful 💖",
-      "Your smile is my favorite view 😊",
-      "You are my happiness 🌸",
-      "My favorite person forever ❤️",
+      "You are kind and beautiful 💖",
+      "Your smile lights up every moment ✨",
+      "You have a pure and caring heart 🤍",
+      "You are strong and graceful 💝",
+      "You make everything feel special 💫",
+      "Your presence brings me happiness ☺️",
       "I feel lucky to have you 💕",
-      "You complete me 💫",
-      "You are my peace ☁️",
-      "You are my dream girl 💖",
-      "I love everything about you 😘"
+      "You are my favorite person forever ❤️",
+      "I cherish everything about you 💗"
     ];
 
     let flippedCount = 0;
@@ -1033,7 +1033,7 @@
     const modalImg = document.getElementById('modal-img');
 
     /* === SECTION 6: FINAL TEXT === */
-    const finalStr = "I Love You Forever ❤️";
+    const finalStr = "You will always be my special person 🤍✨";
     const finalEl = document.getElementById('final-type-text');
     let fi = 0;
     function typeFinalText() {
@@ -1218,7 +1218,6 @@
         music.volume = 0.5;
       }).catch(error => {
         console.error("Playback failed:", error);
-        // Agar yahan error aaye toh iska matlab link dead hai ya browser block kar raha hai
       });
     
       nextSection(2);
